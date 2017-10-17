@@ -1,0 +1,22 @@
+/* css初始化start */
+body{
+	margin: 0;
+}
+ul,li{
+	margin: 0;
+	list-style: none;
+}
+/* css初始化start */
+
+/* 项目公共样式start */
+body{
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	color: #e6e6e6;
+	background-color: #272822;
+}
+a{
+	color: #844822;
+	text-decoration: none;
+}
+/* 项目公共样式end */

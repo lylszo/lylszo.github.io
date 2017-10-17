@@ -1,0 +1,16 @@
+/*导航栏start*/
+nav{
+	background-color: #000;
+	height: 50px;
+	line-height: 50px;
+}
+nav ul{
+	margin: 0 auto;
+	padding: 0;
+}
+nav ul li{
+	float: left;
+	margin-left: 10px;
+	list-style: none;
+}
+/*导航栏end*/
