@@ -9,9 +9,12 @@ ul,li{
 	list-style: none;
 }
 
-.w{
-	background: #fff;
-	max-width: 90%;
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
 }
 
 .clearfix:after{
@@ -31,12 +34,16 @@ body{
 	background-color: #272822;
 }
 
+.w{
+	width: 64em;
+}
+
 a{
-	color: #b7631a;
 	text-decoration: none;
+	color: #e6e6e6;
 }
 
 a:hover{
-	color: #feb252;
+	color: #a3a3a3;
 }
 /* 项目公共样式end */

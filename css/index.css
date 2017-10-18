@@ -1,20 +1,26 @@
 /*导航栏start*/
 nav{
-	background-color: rgba(0, 0, 0, .4);
-	height: 30px;
-	line-height: 30px;
-	padding: 10px;
+	background-color: rgba(0, 0, 0, .5);
+	line-height: 2.25em;
+	padding: 0.5em 0;
 }
-nav ul{
+
+nav>ul{
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 1em;
 }
-nav ul li{
+
+nav>ul>li{
 	float: left;
-	margin-right: 20px;
-	list-style: none;
+	margin-right: 2em;
 }
-nav ul li img{
+
+nav img{
 	display: block;
+	height: 2.25em;
+}
+
+nav .search{
+	margin-right: 5em;
 }
 /*导航栏end*/
