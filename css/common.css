@@ -2,21 +2,41 @@
 body{
 	margin: 0;
 }
+
 ul,li{
 	margin: 0;
+	padding: 0;
 	list-style: none;
+}
+
+.w{
+	background: #fff;
+	max-width: 90%;
+}
+
+.clearfix:after{
+	content:".";display:block;height:0;clear:both;visibility:hidden
+}
+
+.clearfix{
+	*+height:1%;
 }
 /* css初始化start */
 
 /* 项目公共样式start */
 body{
-	font-size: 14px;
+	font-size: 1em;
 	font-family: Microsoft YaHei;
 	color: #e6e6e6;
 	background-color: #272822;
 }
+
 a{
-	color: #844822;
+	color: #b7631a;
 	text-decoration: none;
+}
+
+a:hover{
+	color: #feb252;
 }
 /* 项目公共样式end */
