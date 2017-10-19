@@ -1,3 +1,5 @@
 (function(window, $){
-	console.log('index');
+	$('.mask').click(function(){
+		$(this).css('display','none');
+	})
 })(window, $);
